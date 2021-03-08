@@ -1,19 +1,19 @@
 /*
   Name: Distancia Horizontal
   Copyright: 
-  Author: Athos Neves Ciuldin Silva - 67511
+  Author: Athos Neves Ciuldin Silva
   Date: 22/10/13 23:55
   Description: Programa em C para calcular a distancia horizontal (Dh) utilizando mira Horizontal
 */
 
-//inclusão das bibliotecas
+//inclusao das bibliotecas
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 
 main ()
 {
-     //declaração das variaveis
+     //declaracao das variaveis
      double gggmmss, dec, ss, x, y, dh;
      int gg,mm;
      
@@ -25,7 +25,7 @@ main ()
      printf("\nComprimento da mira horizontal: ");
      scanf("%lf",&y);
        
-     //trnasformação do angulo horiz. em graus decimais
+     //trnasformaÃ§ao do angulo horiz. em graus decimais
      gg = (int) gggmmss;
      mm = (int) ((gggmmss - gg) * 100);
      ss = ((((gggmmss-gg) * 100) - mm) *100);
